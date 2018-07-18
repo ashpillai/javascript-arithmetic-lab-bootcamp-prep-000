@@ -38,6 +38,6 @@ function makeInt(n) {
     return "Nan as appropriate"
   }
   else {
-    return parseInt(n)
+    return parseInt(n, 10)
   }
 }
